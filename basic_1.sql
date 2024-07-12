@@ -9,7 +9,10 @@ insert into customers(Costumer_id,customer_name,country,address,pincode)values
 (105,'Saransh','India','mumbai',400072);
 select * from customers;
 select customer_name from customers;
-select distinct country from customers;
+-- distinct means different values--
+select distinct country from customers; 
+
+
 
 
 
